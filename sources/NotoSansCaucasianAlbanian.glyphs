@@ -1,5 +1,9 @@
 {
-.appVersion = "1357";
+.appVersion = "3072";
+DisplayStrings = (
+"",
+"/doublemacroncomb"
+);
 classes = (
 {
 code = "u10530 u10531 u10532 u10533 u10534 u10535 u10536 u10537 u10538 u10539 u1053A u1053B u1053C u1053D u1053E u1053F u10540 u10541 u10542 u10543 u10544 u10545 u10546 u10547 u10548 u10549 u1054A u1054B u1054C u1054D u1054E u1054F u10550 u10551 u10552 u10553 u10554 u10555 u10556 u10557 u10558 u10559 u1055A u1055B u1055C u1055D u1055E u1055F u10560 u10561 u10562 u10563";
@@ -264,7 +268,7 @@ code = "lookup LigatureSubstitution1 {\012    sub u10530 uniFE26 by u10530_fe26;
 name = LigatureSubstitution1;
 },
 {
-code = "    markClass uniFE26 <anchor -365 858> @Anchor17;\012    markClass uniFE21 <anchor -5 936> @Anchor17;\012\012lookup MarkToMark16 {\012    lookupflag IgnoreBaseGlyphs;\012    pos mark uniFE26 <anchor -146 858> mark @Anchor17;\012    pos mark uniFE20 <anchor -506 936> mark @Anchor17;\012} MarkToMark16;\012";
+code = "    markClass uniFE26 <anchor -365 858> @Anchor17;\012    #markClass uniFE21 <anchor -5 936> @Anchor17;\012\012lookup MarkToMark16 {\012    lookupflag IgnoreBaseGlyphs;\012    pos mark uniFE26 <anchor -146 858> mark @Anchor17;\012    #pos mark uniFE20 <anchor -506 936> mark @Anchor17;\012} MarkToMark16;\012";
 name = MarkToMark16;
 },
 {
@@ -274,7 +278,7 @@ name = Languagesystems;
 );
 features = (
 {
-code = "lookup one {\012    sub @letters' [uniFE20 uniFE2E]' @letters' lookup LigatureSubstitution1 uniFE26';\012    sub @letters' lookup LigatureSubstitution1 uniFE26' @letters' [uniFE21 uniFE2F]';\012    sub @letters' lookup LigatureSubstitution1 uniFE26' @letters_with_macron;\012    sub @letters_with_macron @letters' lookup LigatureSubstitution1 uniFE26';\012} one;\012lookup two {\012    sub @letters' uniFE27' @letters' lookup LigatureSubstitution1 uniFE2D';\012    sub @letters' lookup LigatureSubstitution1 uniFE2D' @letters' uniFE28';\012    sub @letters' lookup LigatureSubstitution1 uniFE2D' @letters_with_macron_below;\012    sub @letters_with_macron_below @letters' lookup LigatureSubstitution1 uniFE2D';\012} two;";
+code = "# Combining tildes, titlos etc disabled as per \012# https://github.com/notofonts/caucasian-albanian/issues/1\012\012lookup one {\012    #sub @letters' [uniFE2E]' @letters' lookup LigatureSubstitution1 uniFE26';\012    #sub @letters' lookup LigatureSubstitution1 uniFE26' @letters' [uniFE2F]';\012    sub @letters' lookup LigatureSubstitution1 uniFE26' @letters_with_macron;\012    sub @letters_with_macron @letters' lookup LigatureSubstitution1 uniFE26';\012} one;\012lookup two {\012    #sub @letters' uniFE27' @letters' lookup LigatureSubstitution1 uniFE2D';\012    #sub @letters' lookup LigatureSubstitution1 uniFE2D' @letters' uniFE28';\012    sub @letters' lookup LigatureSubstitution1 uniFE2D' @letters_with_macron_below;\012    sub @letters_with_macron_below @letters' lookup LigatureSubstitution1 uniFE2D';\012} two;";
 name = ccmp;
 },
 {
@@ -286,7 +290,7 @@ code = "# Automatic Code Start\012";
 name = mark;
 },
 {
-code = "# Automatic Code Start\012pos @letters' uniFE20' @letters' uniFE26' lookup MarkToMark16 @letters' uniFE21' lookup MarkToMark16;\012";
+code = "# Automatic Code Start\012# pos @letters' uniFE20' @letters' uniFE26' lookup MarkToMark16 @letters' uniFE21' lookup MarkToMark16;\012";
 name = mkmk;
 }
 );
@@ -5019,9 +5023,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE22;
 production = uniFE22;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 13:42:53 +0000";
 layers = (
 {
 anchors = (
@@ -5065,9 +5070,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE23;
 production = uniFE23;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 13:42:53 +0000";
 layers = (
 {
 anchors = (
@@ -5111,9 +5117,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE27;
 production = uniFE27;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 13:43:09 +0000";
 layers = (
 {
 anchors = (
@@ -5153,9 +5160,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE20;
 production = uniFE20;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 13:43:09 +0000";
 layers = (
 {
 anchors = (
@@ -5195,9 +5203,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE28;
 production = uniFE28;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 13:43:09 +0000";
 layers = (
 {
 anchors = (
@@ -5237,9 +5246,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE21;
 production = uniFE21;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 13:43:09 +0000";
 layers = (
 {
 anchors = (
@@ -5423,9 +5433,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE29;
 production = uniFE29;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 13:43:17 +0000";
 layers = (
 {
 anchors = (
@@ -5469,9 +5480,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE2A;
 production = uniFE2A;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 13:43:17 +0000";
 layers = (
 {
 anchors = (
@@ -5515,9 +5527,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE2E;
 production = uniFE2E;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 14:14:12 +0000";
 layers = (
 {
 anchors = (
@@ -5559,9 +5572,10 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+export = 0;
 glyphname = uniFE2F;
 production = uniFE2F;
-lastChange = "2019-02-19 19:00:23 +0000";
+lastChange = "2022-06-22 14:14:12 +0000";
 layers = (
 {
 anchors = (
@@ -11313,6 +11327,54 @@ nodes = (
 width = 498;
 }
 );
+},
+{
+glyphname = doublemacroncomb;
+lastChange = "2022-06-22 13:38:36 +0000";
+layers = (
+{
+anchors = (
+{
+name = _Anchor14;
+position = "{0, 714}";
+},
+{
+name = _Anchor7;
+position = "{0, 714}";
+}
+);
+layerId = "013C57DE-4010-4415-A39F-4966D9E8DBC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-255 807 OFFCURVE",
+"-238 825 OFFCURVE",
+"-233 854 CURVE",
+"266 854 LINE SMOOTH",
+"313 854 OFFCURVE",
+"333 878 OFFCURVE",
+"333 917 CURVE SMOOTH",
+"333 949 OFFCURVE",
+"315 971 OFFCURVE",
+"283 971 CURVE SMOOTH",
+"255 971 OFFCURVE",
+"238 953 OFFCURVE",
+"233 924 CURVE",
+"-266 924 LINE SMOOTH",
+"-313 924 OFFCURVE",
+"-333 900 OFFCURVE",
+"-333 861 CURVE SMOOTH",
+"-333 829 OFFCURVE",
+"-315 807 OFFCURVE",
+"-283 807 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+unicode = 035E;
 }
 );
 instances = (
