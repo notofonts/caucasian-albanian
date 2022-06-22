@@ -18,7 +18,7 @@ code = "u10530_fe2d u10531_fe2d u10532_fe2d u10533_fe2d u10534_fe2d u10535_fe2d 
 name = letters_with_macron_below;
 }
 );
-copyright = "Copyright 2018-2021 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/caucasian-albanian)";
 customParameters = (
 {
 name = glyphOrder;
@@ -233,16 +233,20 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
@@ -254,7 +258,7 @@ value = "Noto is a trademark of Google Inc.";
 },
 {
 name = versionString;
-value = "Version 2.003";
+value = "Version 2.004";
 }
 );
 date = "2021-12-16 18:42:16 +0000";
@@ -12069,5 +12073,5 @@ nV = "90";
 };
 };
 versionMajor = 2;
-versionMinor = 3;
+versionMinor = 4;
 }
