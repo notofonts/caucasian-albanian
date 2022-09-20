@@ -320,7 +320,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 976;
+value = 995;
 },
 {
 name = winDescent;
