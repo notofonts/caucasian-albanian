@@ -1,7 +1,6 @@
 {
-.appVersion = "3072";
+.appVersion = "3217";
 DisplayStrings = (
-"",
 "/doublemacroncomb"
 );
 classes = (
@@ -233,6 +232,10 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -255,10 +258,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 name = versionString;
 value = "Version 2.004";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2021-12-16 18:42:16 +0000";
@@ -276,7 +275,7 @@ code = "    markClass uniFE26 <anchor -365 858> @Anchor17;\012    #markClass uni
 name = MarkToMark16;
 },
 {
-code = "languagesystem aghb dflt;\012";
+code = "languagesystem DFLT dflt;\012languagesystem aghb dflt;\012";
 name = Languagesystems;
 }
 );
@@ -4881,42 +4880,6 @@ unicode = 00A0;
 script = "";
 category = Separator;
 subCategory = Space;
-},
-{
-glyphname = uni0304;
-production = uni0304;
-lastChange = "2019-02-19 19:00:23 +0000";
-layers = (
-{
-anchors = (
-{
-name = _Anchor13;
-position = "{0, 714}";
-},
-{
-name = _Anchor6;
-position = "{0, 714}";
-}
-);
-layerId = "013C57DE-4010-4415-A39F-4966D9E8DBC5";
-paths = (
-{
-closed = 1;
-nodes = (
-"149 823 LINE",
-"149 893 LINE",
-"-148 893 LINE",
-"-148 823 LINE"
-);
-}
-);
-width = 0;
-}
-);
-unicode = 0304;
-script = "";
-category = Mark;
-subCategory = Nonspacing;
 },
 {
 glyphname = uni0331;
@@ -11333,8 +11296,44 @@ width = 498;
 );
 },
 {
+glyphname = macroncomb;
+production = uni0304;
+lastChange = "2023-09-15 10:17:17 +0000";
+layers = (
+{
+anchors = (
+{
+name = _Anchor13;
+position = "{0, 714}";
+},
+{
+name = _Anchor6;
+position = "{0, 714}";
+}
+);
+layerId = "013C57DE-4010-4415-A39F-4966D9E8DBC5";
+paths = (
+{
+closed = 1;
+nodes = (
+"149 823 LINE",
+"149 893 LINE",
+"-148 893 LINE",
+"-148 823 LINE"
+);
+}
+);
+width = 0;
+}
+);
+unicode = 0304;
+script = "";
+category = Mark;
+subCategory = Nonspacing;
+},
+{
 glyphname = doublemacroncomb;
-lastChange = "2022-06-22 13:38:36 +0000";
+lastChange = "2023-09-15 10:17:51 +0000";
 layers = (
 {
 anchors = (
@@ -11352,26 +11351,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-255 807 OFFCURVE",
-"-238 825 OFFCURVE",
-"-233 854 CURVE",
-"266 854 LINE SMOOTH",
-"313 854 OFFCURVE",
-"333 878 OFFCURVE",
-"333 917 CURVE SMOOTH",
-"333 949 OFFCURVE",
-"315 971 OFFCURVE",
-"283 971 CURVE SMOOTH",
-"255 971 OFFCURVE",
-"238 953 OFFCURVE",
-"233 924 CURVE",
-"-266 924 LINE SMOOTH",
-"-313 924 OFFCURVE",
-"-333 900 OFFCURVE",
-"-333 861 CURVE SMOOTH",
-"-333 829 OFFCURVE",
-"-315 807 OFFCURVE",
-"-283 807 CURVE SMOOTH"
+"-333 854 LINE",
+"339 854 LINE",
+"339 924 LINE",
+"-333 924 LINE"
 );
 }
 );
