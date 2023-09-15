@@ -281,7 +281,7 @@ name = Languagesystems;
 );
 features = (
 {
-code = "# Combining tildes, titlos etc disabled as per \012# https://github.com/notofonts/caucasian-albanian/issues/1\012\012lookup one {\012    #sub @letters' [uniFE2E]' @letters' lookup LigatureSubstitution1 uniFE26';\012    #sub @letters' lookup LigatureSubstitution1 uniFE26' @letters' [uniFE2F]';\012    sub @letters' lookup LigatureSubstitution1 uniFE26' @letters_with_macron;\012    sub @letters_with_macron @letters' lookup LigatureSubstitution1 uniFE26';\012} one;\012lookup two {\012    #sub @letters' uniFE27' @letters' lookup LigatureSubstitution1 uniFE2D';\012    #sub @letters' lookup LigatureSubstitution1 uniFE2D' @letters' uniFE28';\012    sub @letters' lookup LigatureSubstitution1 uniFE2D' @letters_with_macron_below;\012    sub @letters_with_macron_below @letters' lookup LigatureSubstitution1 uniFE2D';\012} two;";
+code = "# Combining tildes, titlos etc disabled as per \012# https://github.com/notofonts/caucasian-albanian/issues/1\012\012lookup one {\012    #sub @letters' [uniFE2E]' @letters' lookup LigatureSubstitution1 uniFE26';\012    #sub @letters' lookup LigatureSubstitution1 uniFE26' @letters' [uniFE2F]';\012    sub @letters' lookup LigatureSubstitution1 uniFE26' @letters uniFE26;\012    sub @letters_with_macron @letters' lookup LigatureSubstitution1 uniFE26';\012} one;\012lookup two {\012    #sub @letters' uniFE27' @letters' lookup LigatureSubstitution1 uniFE2D';\012    #sub @letters' lookup LigatureSubstitution1 uniFE2D' @letters' uniFE28';\012    sub @letters' lookup LigatureSubstitution1 uniFE2D' @letters uniFE2D;\012    sub @letters_with_macron_below @letters' lookup LigatureSubstitution1 uniFE2D';\012} two;\012";
 name = ccmp;
 },
 {
