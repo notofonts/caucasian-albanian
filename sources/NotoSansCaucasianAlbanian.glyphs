@@ -257,7 +257,7 @@ value = "Noto is a trademark of Google Inc.";
 },
 {
 name = versionString;
-value = "Version 2.004";
+value = "Version 2.005";
 }
 );
 date = "2021-12-16 18:42:16 +0000";
@@ -12056,5 +12056,5 @@ nV = "90";
 };
 };
 versionMajor = 2;
-versionMinor = 4;
+versionMinor = 5;
 }
