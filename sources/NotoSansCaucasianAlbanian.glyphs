@@ -1,5 +1,5 @@
 {
-.appVersion = "3217";
+.appVersion = "3205";
 DisplayStrings = (
 "/doublemacroncomb"
 );
@@ -323,7 +323,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 995;
+value = 1071;
 },
 {
 name = winDescent;
