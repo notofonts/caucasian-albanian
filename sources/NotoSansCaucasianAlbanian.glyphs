@@ -11385,10 +11385,6 @@ value = (
 {
 name = xHeight;
 value = "536";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Sans CaucAlban";
 }
 );
 instanceInterpolations = {
